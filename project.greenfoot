@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Thu Sep 12 09:34:40 PDT 2019
+#Fri Sep 13 09:26:16 PDT 2019
 editor.fx.0.height=0
 target2.width=80
 target5.naviview.expanded=true
@@ -24,7 +24,7 @@ dependency6.type=UsesDependency
 target4.showInterface=false
 publish.title=Putin vs. Russia
 target2.y=70
-target2.x=70
+target2.x=160
 dependency10.to=America
 target3.naviview.expanded=true
 target1.editor.height=860
@@ -75,7 +75,7 @@ mainWindow.y=-8
 mainWindow.x=-8
 target5.showInterface=false
 dependency5.from=Putin
-target2.name=America
+target2.name=Ukraine
 dependency9.from=Russia
 readme.name=@README
 target6.name=Russia
@@ -102,7 +102,7 @@ dependency4.type=UsesDependency
 target7.type=ClassTarget
 target7.editor.x=40
 target3.y=70
-target3.x=160
+target3.x=70
 dependency7.to=Putin
 target3.height=50
 dependency8.type=UsesDependency
@@ -116,7 +116,7 @@ dependency2.from=America
 dependency6.from=Putin
 project.charset=UTF-8
 target3.showInterface=false
-target3.name=Ukraine
+target3.name=America
 target6.showInterface=false
 target3.typeParameters=
 dependency3.to=Russia
