@@ -1,10 +1,14 @@
 #Greenfoot properties
+<<<<<<< HEAD
 #Fri Sep 13 09:26:16 PDT 2019
+=======
+#Thu Sep 12 09:39:38 PDT 2019
+>>>>>>> 7c672cb15b0939ff7d26b546abc9cdd4ede1edd4
 editor.fx.0.height=0
 target2.width=80
 target5.naviview.expanded=true
-target7.showInterface=false
 target1.type=ClassTarget
+target7.showInterface=false
 mainWindow.height=876
 target2.editor.y=1
 target2.editor.x=800
@@ -96,8 +100,8 @@ target7.x=190
 target2.editor.height=859
 class.Russia.image=russia.jpg
 target5.y=10
-target7.editor.y=20
 target5.x=70
+target7.editor.y=20
 dependency4.type=UsesDependency
 target7.type=ClassTarget
 target7.editor.x=40
@@ -135,19 +139,19 @@ target7.height=50
 dependency5.type=UsesDependency
 dependency9.type=UsesDependency
 target3.editor.height=700
-target7.naviview.expanded=true
 target6.width=80
+target7.naviview.expanded=true
 target7.width=80
 target6.editor.height=803
 class.America.superclass=greenfoot.Actor
 dependency3.from=America
 target1.typeParameters=
-target3.width=80
 class.America.image=eagle.jpg
+target3.width=80
 target4.width=80
-class.Putin.superclass=greenfoot.Actor
-dependency7.from=Russia
 target1.editor.y=0
+dependency7.from=Russia
+class.Putin.superclass=greenfoot.Actor
 target1.editor.x=0
 target5.width=80
 dependency4.to=Ukraine
