@@ -56,7 +56,6 @@ public class Putin extends Actor //PUTIN class
         if ( canSee(Ukraine.class) ) 
         {
             eat(Ukraine.class); //Nom-nom
-            Greenfoot.playSound("Evil_laugh_Male_9-Himan-1598312646.mp3");
             Russia.scoreCounter.add(5);
             Russia.scoreCounter.updateImage();
             ukrainesEaten = ukrainesEaten + 1;
