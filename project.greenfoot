@@ -1,14 +1,10 @@
 #Greenfoot properties
-<<<<<<< HEAD
-#Fri Sep 13 09:26:16 PDT 2019
-=======
-#Thu Sep 12 09:39:38 PDT 2019
->>>>>>> 7c672cb15b0939ff7d26b546abc9cdd4ede1edd4
-editor.fx.0.height=0
+#Mon Sep 16 09:08:27 PDT 2019
+editor.fx.0.height=747
 target2.width=80
 target5.naviview.expanded=true
-target1.type=ClassTarget
 target7.showInterface=false
+target1.type=ClassTarget
 mainWindow.height=876
 target2.editor.y=1
 target2.editor.x=800
@@ -66,9 +62,9 @@ dependency7.type=UsesDependency
 target1.naviview.expanded=true
 publish.updateDesc=
 version=3.0.0
-editor.fx.0.y=0
+editor.fx.0.y=95
 target5.editor.width=900
-editor.fx.0.x=0
+editor.fx.0.x=551
 class.Ukraine.superclass=greenfoot.Actor
 dependency6.to=Russia
 target2.showInterface=false
@@ -88,7 +84,7 @@ target6.editor.y=8
 target6.editor.x=18
 target5.editor.height=803
 dependency10.type=UsesDependency
-editor.fx.0.width=0
+editor.fx.0.width=818
 dependency2.to=Counter
 publish.url=
 target3.type=ClassTarget
@@ -100,8 +96,8 @@ target7.x=190
 target2.editor.height=859
 class.Russia.image=russia.jpg
 target5.y=10
-target5.x=70
 target7.editor.y=20
+target5.x=70
 dependency4.type=UsesDependency
 target7.type=ClassTarget
 target7.editor.x=40
@@ -139,19 +135,19 @@ target7.height=50
 dependency5.type=UsesDependency
 dependency9.type=UsesDependency
 target3.editor.height=700
-target6.width=80
 target7.naviview.expanded=true
+target6.width=80
 target7.width=80
 target6.editor.height=803
 class.America.superclass=greenfoot.Actor
 dependency3.from=America
 target1.typeParameters=
-class.America.image=eagle.jpg
 target3.width=80
+class.America.image=eagle.jpg
 target4.width=80
-target1.editor.y=0
-dependency7.from=Russia
 class.Putin.superclass=greenfoot.Actor
+dependency7.from=Russia
+target1.editor.y=0
 target1.editor.x=0
 target5.width=80
 dependency4.to=Ukraine
