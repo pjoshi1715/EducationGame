@@ -12,12 +12,6 @@ public class America extends Actor //AMERICA class
         checkKeyPress2();
         lookForPutin(); 
        // Russia.backgroundMusic.playLoop();
-        count++;
-            if(count == 10) //Computer uses this for timing to switch the image
-            {
-                switchImage();
-                count=0;
-            }
     }   
     public void stopMusic2() //Used to stop the background "tetris" music once America eats Putin
     {
@@ -30,7 +24,7 @@ public class America extends Actor //AMERICA class
    public America() //Constructor. Establishes the 2 eagle images and the sets the putinsEaten variable
    {
        
-       image3 = new GreenfootImage("eagle.jpg"); 
+       image3 = new GreenfootImage("grant.jpg"); 
        image4 = new GreenfootImage("eagle2.jpg");
        setImage(image3);
        putinsEaten = 0; 
@@ -45,17 +39,6 @@ public class America extends Actor //AMERICA class
         Actor actor = getOneObjectAtOffset(0, 0, clss);
         if(actor != null) {
             getWorld().removeObject(actor);
-        }
-    }
-   public void switchImage() //used to animate America, switching the image back and forth 
-   {
-       if ( getImage() == image4 ) //If the current image is "Image4", switch to image 3
-        {
-            setImage(image3);
-        }
-        else //If the current image isn't "Image4", switch to image 4. It does this very rapidly. 
-        {
-            setImage(image4);
         }
     }
     public void checkKeyPress2() //Allows the player to control America using the arrow keys
