@@ -11,6 +11,12 @@ public class Putin extends Actor //PUTIN class
     {
         lookForUkraine(); 
         checkKeyPress();
+        count++;
+            if(count == 7)
+            {
+                switchImage();
+                count=0;
+            }
     }  
    public Putin(Counter pointCounter) //Switches Putin's image and relates Putin TO the counter (scoreCounter)
    {
@@ -30,6 +36,17 @@ public class Putin extends Actor //PUTIN class
         Actor actor = getOneObjectAtOffset(0, 0, clss);
         if(actor != null) {
             getWorld().removeObject(actor); //Takes the Ukraine object out of the world
+        }
+    }
+    public void switchImage() //Used for the animation of Putin
+   {
+       if ( getImage() == image2 ) //If the current image is "Image2", switch to "Image1"
+        {
+            setImage(image1);
+        }
+        else //Otherwise, if it is currently "Image1", switch to "Image2"
+        {
+            setImage(image2);
         }
     }
     private void checkKeyPress() //Allows the player to control Putin using the proper keys
