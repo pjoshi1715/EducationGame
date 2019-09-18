@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class GlorietaPass extends Actor
+public class GlorietaPass extends Ukraine
 {
     /**
      * Act - do whatever the GlorietaPass wants to do. This method is called whenever

@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class FortSumter extends Actor
+public class FortSumter extends Ukraine
 {
     /**
      * Act - do whatever the FortSumter wants to do. This method is called whenever

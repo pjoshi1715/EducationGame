@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Antietam extends Actor
+public class Antietam extends Ukraine
 {
     /**
      * Act - do whatever the Antietam wants to do. This method is called whenever

@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Gettysburg extends Actor
+public class Gettysburg extends Ukraine
 {
     /**
      * Act - do whatever the Gettysburg wants to do. This method is called whenever

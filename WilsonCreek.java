@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class WilsonCreek extends Actor
+public class WilsonCreek extends Ukraine
 {
     /**
      * Act - do whatever the WilsonCreek wants to do. This method is called whenever
