@@ -32,7 +32,15 @@ public class Russia extends World  //RUSSIA, the world class here
         addObject(new Putin(scoreCounter), 100, 620); //puts a single "Putin" into the world originally
         
 
-        addObject(new Ukraine(),randpop[0][0], randpop[0][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        addObject(new FortSumter(),randpop[0][0], randpop[0][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        addObject(new WilsonCreek(),randpop[1][0], randpop[1][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        addObject(new GlorietaPass(),randpop[2][0], randpop[2][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        addObject(new Gettysburg(),randpop[3][0], randpop[3][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        addObject(new Vicksburg(),randpop[4][0], randpop[4][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        addObject(new Antietam(),randpop[5][0], randpop[5][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        addObject(new BullRun(),randpop[6][0], randpop[6][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        
+       
         addObject(new America(), 830, 200);
     }
    
