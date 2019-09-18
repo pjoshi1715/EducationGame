@@ -72,7 +72,6 @@ public class America extends Actor //AMERICA class
                 Russia.backgroundMusic.stop(); 
                 getWorld().setBackground(new GreenfootImage("flag2.png")); 
 //                 Russia.addObject(new Flag2(), 500, 300); //Future additons....
-                Greenfoot.playSound("Village_People_-_YMCA.mp3"); //AMERICA'S true national anthem
                 Greenfoot.stop();
             }
         }

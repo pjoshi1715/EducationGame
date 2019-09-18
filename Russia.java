@@ -6,7 +6,8 @@ import java.lang.Math;
 public class Russia extends World  //RUSSIA, the world class here
 {
     public static Counter scoreCounter; //Our counter this evening is named "scoreCounter"
-    public static GreenfootSound backgroundMusic = new GreenfootSound("Nintendo_Music_-_Tetris_Gameboy_Main_Theme.mp3"); //Fun, fitting background music
+    private boolean musicStart = true;
+    public static GreenfootSound backgroundMusic = new GreenfootSound("civilwartheme.mp3"); //Fun, fitting background music
     int [][] randpop = new int[9][2];
     
     public Russia()
@@ -14,8 +15,9 @@ public class Russia extends World  //RUSSIA, the world class here
         super(1000, 700, 1);  // Create a new world with 1000 x 700 dimensions
         populateWorld();   //Method below, puts objects into the world at reset
         backgroundMusic.playLoop(); //plays the background Tetris music until stop
-    }
-    
+        backgroundMusic.setVolume(25);
+        
+   }
     public void populateWorld()  //Method used to put new object into the world at reset of the game
     {
         for (int r = 0; r < 9; r++) {
@@ -29,9 +31,10 @@ public class Russia extends World  //RUSSIA, the world class here
         
         addObject(new Putin(scoreCounter), 100, 620); //puts a single "Putin" into the world originally
         
-        System.out.println(randpop[0][0] + " and " + randpop[0][1]);
+
         addObject(new Ukraine(),randpop[0][0], randpop[0][1]);  //putting "Ukraines" into the world upon resetting at various locations
         addObject(new America(), 830, 200);
     }
+   
    }
  
