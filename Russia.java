@@ -18,15 +18,19 @@ public class Russia extends World  //RUSSIA, the world class here
     
     public void populateWorld()  //Method used to put new object into the world at reset of the game
     {
-        
+        for (int r = 0; r < 9; r++) {
+            for (int c = 0; c <2;c++) {
+                randpop[r][c] = (int)(Math.random()*1000);
+            }
+        }
         Counter scoreCounter = new Counter(); //Establishes the new counter called "scoreCounter"
         addObject(scoreCounter, 50, 20); //Where the counter will be located
         Putin putin2 = new Putin(scoreCounter); //Creates a Putin object to relate to the counter
         
         addObject(new Putin(scoreCounter), 100, 620); //puts a single "Putin" into the world originally
         
-        
-        addObject(new Ukraine(), 500, 700);  //putting "Ukraines" into the world upon resetting at various locations
+        System.out.println(randpop[0][0] + " and " + randpop[0][1]);
+        addObject(new Ukraine(),randpop[0][0], randpop[0][1]);  //putting "Ukraines" into the world upon resetting at various locations
         addObject(new America(), 830, 200);
     }
    }
