@@ -13,6 +13,8 @@ public class Russia extends World  //RUSSIA, the world class here
     public Russia()
     {    
         super(1000, 700, 1);  // Create a new world with 1000 x 700 dimensions
+        Information w = new Information();
+        Greenfoot.setWorld(w);
         populateWorld();   //Method below, puts objects into the world at reset
         backgroundMusic.playLoop(); //plays the background Tetris music until stop
         backgroundMusic.setVolume(25);
