@@ -61,6 +61,7 @@ public class Putin extends Actor //PUTIN class
             if (ukrainesEaten >= 9) //scoreCounter.getValue() >= 40
             { 
                 //Russia.backgroundMusic.stop(); 
+                Greenfoot.playSound("Evil_laugh_Male_9-Himan-1598312646.mp3"); 
                 getWorld().setBackground(new GreenfootImage("confedflag.png")); 
 //              Russia.addObject(new Flag(), 500, 300); //Future additions....
                 Greenfoot.stop(); 
