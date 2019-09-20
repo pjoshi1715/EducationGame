@@ -4,7 +4,6 @@ public class America extends Actor //AMERICA class
 {
     public static int putinsEaten; //Amount of Vladmir's eliminated from the world
     private GreenfootImage image3; //The two eagle images used for animation
-    private GreenfootImage image4;
     private int count = 0; //Used for image-switch timing purposes
     
     public void act() //Act method. Includes inputs from the keyboard and "lookForPutin", explained later
@@ -17,15 +16,14 @@ public class America extends Actor //AMERICA class
     {
             if (putinsEaten == 1 )
             {
-                Russia.backgroundMusic.stop(); 
+                //Russia.backgroundMusic.stop(); 
             }
     }
     
    public America() //Constructor. Establishes the 2 eagle images and the sets the putinsEaten variable
    {
-       
+  
        image3 = new GreenfootImage("grant.jpg"); 
-       image4 = new GreenfootImage("eagle2.jpg");
        setImage(image3);
        putinsEaten = 0; 
     }
@@ -53,11 +51,11 @@ public class America extends Actor //AMERICA class
         }
         if (Greenfoot.isKeyDown("up"))
         {
-           move(4);
+           move(3);
         }
         if (Greenfoot.isKeyDown("down"))
         {
-            move(-4); 
+            move(-3); 
         }
     }
    public void lookForPutin() //Using the "canSee" and "eat" methods to destroy Putin. Also stops the game. 
@@ -69,9 +67,9 @@ public class America extends Actor //AMERICA class
             putinsEaten = putinsEaten + 1;
             if (putinsEaten == 1 )
             {
-                Russia.backgroundMusic.stop(); 
+                //Russia.backgroundMusic.stop(); 
                 getWorld().setBackground(new GreenfootImage("flag2.png")); 
-//                 Russia.addObject(new Flag2(), 500, 300); //Future additons....
+             //Russia.addObject(new Flag2(), 500, 300); //Future additons....
                 Greenfoot.stop();
             }
         }
