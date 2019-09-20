@@ -16,10 +16,14 @@ public class Background_Information extends Actor
         Slideshow();
     }
     
+    /**
+     * 
+     */
     public void Slideshow() 
     {
        getWorld().setBackground(new GreenfootImage("Time_For_Info.jpg"));
        Greenfoot.delay(200);
+       /*
        getWorld().setBackground(new GreenfootImage("Info Slides (1).jpg"));
        Greenfoot.delay(600);
        getWorld().setBackground(new GreenfootImage("Info Slides (8).jpg"));
@@ -36,7 +40,18 @@ public class Background_Information extends Actor
        Greenfoot.delay(600);
        getWorld().setBackground(new GreenfootImage("Info Slides (2).jpg"));
        Greenfoot.delay(600);
+       */
+       SlideshowR(1);
        getWorld().setBackground(new GreenfootImage("The_End.jpg"));
        Greenfoot.stop();
     }    
+    
+    public void SlideshowR(int n)
+  {
+      if (n <= 8) {
+        getWorld().setBackground(new GreenfootImage("Info Slides (" + n + ").jpg"));
+        Greenfoot.delay(600);  
+        SlideshowR(n + 1);
+    }
+  }
 }
