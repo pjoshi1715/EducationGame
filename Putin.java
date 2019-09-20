@@ -62,11 +62,11 @@ public class Putin extends Actor //PUTIN class
             ukrainesEaten = ukrainesEaten + 1;
             if (ukrainesEaten >= 8) //scoreCounter.getValue() >= 40
             { 
-                Russia.backgroundMusic.stop(); 
-                getWorld().setBackground(new GreenfootImage("flag.png")); 
-//              Russia.addObject(new Flag(), 500, 300); //Future additions....
-                Greenfoot.stop(); 
-                Greenfoot.playSound("СССР_-_Soviet_National_Anthem.mp3"); 
+                getWorld().setBackground(new GreenfootImage("flag.png"));
+                Greenfoot.delay(200);
+                getWorld().addObject(new Background_Information(), 0, 0);
+                getWorld().removeObject(this);
+                
             }
         }
     }

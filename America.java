@@ -68,11 +68,12 @@ public class America extends Actor //AMERICA class
             Greenfoot.playSound("hawk_screeching-Mike_Koenig-1626170357.wav"); 
             putinsEaten = putinsEaten + 1;
             if (putinsEaten == 1 )
-            {
-                Russia.backgroundMusic.stop(); 
-                getWorld().setBackground(new GreenfootImage("flag2.png")); 
-//                 Russia.addObject(new Flag2(), 500, 300); //Future additons....
-                Greenfoot.stop();
+            { 
+                getWorld().setBackground(new GreenfootImage("flag2.png"));
+                Greenfoot.delay(200);
+                getWorld().addObject(new Background_Information(), 0, 0);
+                getWorld().removeObject(this);
+                //Greenfoot.stop();
             }
         }
     }
