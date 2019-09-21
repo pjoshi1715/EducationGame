@@ -1,7 +1,10 @@
 #BlueJ class context
 comment0.target=Russia
+comment0.text=\r\n\ The\ Russia\ Class\r\n\ \r\n\ @author\ Parth\ Joshi,\ Ethan\ Lau,\ Arav\ Vyawahare,\ Jonathan\ Wang\r\n\ @version\ 2.0\ Sept\ 20,\ 2019\r\n
 comment1.params=
 comment1.target=Russia()
+comment1.text=\r\n\ Constructer\ of\ the\ Russia\ Class.\ Defines\ the\ size\ of\ the\ world\ and\ starts\ background\ music\ and\ volume.\ Calls\ upon\ the\ populateWorld()\ class.\ \r\n
 comment2.params=
 comment2.target=void\ populateWorld()
+comment2.text=\r\n\ Method\ used\ to\ place\ objects\ in\ the\ world.\ Called\ upon\ by\ the\ Russia\ constructer.\ \r\n
 numComments=3

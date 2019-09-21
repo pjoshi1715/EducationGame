@@ -3,14 +3,14 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class TitleScreen here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Parth Joshi, Ethan Lau, Arav Vyawahare, Jonathan Wang
+ * @version 2.0 Sept 20, 2019
  */
 public class TitleScreen extends World
 {
  
     /**
-     * Constructor for objects of class TitleScreen.
+     * Constructor for the TitleScreen class.
      * 
      */
     public TitleScreen()

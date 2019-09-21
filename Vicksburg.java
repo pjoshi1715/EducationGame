@@ -3,8 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class Vicksburg here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Parth Joshi, Ethan Lau, Arav Vyawahare, Jonathan Wang
+ * @version 2.0 Sept 20, 2019
  */
 public class Vicksburg extends Ukraine
 {
