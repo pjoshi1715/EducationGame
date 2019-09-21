@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Background_Information
+comment0.text=\r\n\ Backgroun_Information\ object\ Iterates\ through\ the\ informational\ slides.\r\n\ \r\n\ @author\ Parth\ Joshi,\ Ethan\ Lau,\ Arav\ Vyawahare,\ Jonathan\ Wang\r\n\ @version\ 2.0\ Sept\ 20,\ 2019\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ BullRun\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\ Calls\ upon\ Slideshow\r\n
+comment2.params=
+comment2.target=void\ Slideshow()
+comment2.text=\r\n\ \ Slideshow\ sets\ background\ of\ the\ world\ to\ that\ of\ the\ Beginning\ Slide,\ the\ End\ slide,\ and\ calls\ for\ the\ SlideshowR\ method\r\n
+comment3.params=n
+comment3.target=void\ SlideshowR(int)
+comment3.text=\r\n\ Recursive\ method\ in\ which\ slides\ 1\ through\ 8\ are\ ierated\ through.\ \r\n
+numComments=4

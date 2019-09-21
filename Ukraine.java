@@ -1,7 +1,12 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-public class Ukraine extends Actor //This is the poor UKRAINE class
+/**
+ * The Ukraine Class. Abstract Class that all "territories" inherit
+ * 
+ * @author Parth Joshi, Ethan Lau, Arav Vyawahare, Jonathan Wang
+ * @version 2.0 Sept 20, 2019
+ */
+public abstract class Ukraine extends Actor //This is the poor UKRAINE class
 {
-    //Ukraine doesn't do anything except get MAULED BY PUTIN, so he doesn't have an act method or anything
-    //fancy like that. 
+    //Abstract Class of all "territories"
 }

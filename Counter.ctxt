@@ -1,7 +1,9 @@
 #BlueJ class context
 comment0.target=Counter
+comment0.text=\r\n\ Counter\ object\ \r\n\ \r\n\ @author\ Parth\ Joshi,\ Ethan\ Lau,\ Arav\ Vyawahare,\ Jonathan\ Wang\r\n\ @version\ 2.0\ Sept\ 20,\ 2019\r\n
 comment1.params=
 comment1.target=Counter()
+comment1.text=\r\n\ Constructer\ for\ string\ method\r\n
 comment2.params=prefix
 comment2.target=Counter(java.lang.String)
 comment2.text=\r\n\ Create\ a\ new\ counter,\ initialised\ to\ 0.\r\n

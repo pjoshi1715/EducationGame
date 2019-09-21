@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TitleScreen
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ TitleScreen\ here.\r\n\ \r\n\ @author\ Parth\ Joshi,\ Ethan\ Lau,\ Arav\ Vyawahare,\ Jonathan\ Wang\r\n\ @version\ 2.0\ Sept\ 20,\ 2019\r\n
+comment1.params=
+comment1.target=TitleScreen()
+comment1.text=\r\n\ Constructor\ for\ the\ TitleScreen\ class.\ Default\ World\ Constructer\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ This\ method\ is\ called\ whenever\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\ Checks\ if\ space\ has\ been\ pressed\ and\ switches\ worlds\ once\ pressed.\ \r\n
+numComments=3
