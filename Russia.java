@@ -12,7 +12,7 @@ public class Russia extends World  //RUSSIA, the world class here
     
     public Russia()
     {    
-        super(960, 540, 1);  // Create a new world with 1000 x 700 dimension
+        super(960, 540, 1);  // Create a new world with 1000 x 700 dimensions
         populateWorld();   //Method below, puts objects into the world at reset
         backgroundMusic.playLoop(); //plays the background Tetris music until stop
         backgroundMusic.setVolume(25);
@@ -20,16 +20,29 @@ public class Russia extends World  //RUSSIA, the world class here
    }
     public void populateWorld()  //Method used to put new object into the world at reset of the game
     {
+        for (int r = 0; r < 9; r++) {
+            for (int c = 0; c <2;c++) {
+                randpop[r][c] = (int)(Math.random()*960);
+            }
+        }
         Counter scoreCounter = new Counter(); //Establishes the new counter called "scoreCounter"
         addObject(scoreCounter, 50, 20); //Where the counter will be located
-        Putin putin2 = new Putin(scoreCounter); //Creates a Putin object to relate to the counter
+        Putin scoreboard = new Putin(scoreCounter); //Creates a Putin object to relate to the counter
         
         addObject(new Putin(scoreCounter), 100, 400); //puts a single "Putin" into the world originally
         
 
-        addObject(new Ukraine(),randpop[0][0], randpop[0][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        addObject(new FortSumter(),randpop[0][0], randpop[0][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        addObject(new WilsonCreek(),randpop[1][0], randpop[1][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        addObject(new GlorietaPass(),randpop[2][0], randpop[2][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        addObject(new Gettysburg(),randpop[3][0], randpop[3][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        addObject(new Vicksburg(),randpop[4][0], randpop[4][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        addObject(new Antietam(),randpop[5][0], randpop[5][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        addObject(new BullRun(),randpop[6][0], randpop[6][1]);  //putting "Ukraines" into the world upon resetting at various locations
+        addObject(new Davis(), randpop[7][0], randpop[7][1]);
+        addObject(new Lincoln(), randpop[8][0], randpop[8][1]);
+       
         addObject(new America(), 900, 100);
-        //addObject(new Background_Information(), 0, 0);
     }
    
    }

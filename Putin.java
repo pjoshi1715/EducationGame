@@ -1,4 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.util.List;
 
 import java.awt.Graphics; //Necessary imports for Putin to work
 public class Putin extends Actor //PUTIN class
@@ -16,7 +17,6 @@ public class Putin extends Actor //PUTIN class
    {
        Russia.scoreCounter = pointCounter; 
        image1 = new GreenfootImage("lee.jpg"); 
-       image2 = new GreenfootImage("putin2.gif");
        setImage(image1);
        ukrainesEaten = 0; 
    }
@@ -56,17 +56,16 @@ public class Putin extends Actor //PUTIN class
         if ( canSee(Ukraine.class) ) 
         {
             eat(Ukraine.class); //Nom-nom
-            Greenfoot.playSound("Evil_laugh_Male_9-Himan-1598312646.mp3");
             Russia.scoreCounter.add(5);
             Russia.scoreCounter.updateImage();
             ukrainesEaten = ukrainesEaten + 1;
-            if (ukrainesEaten >= 8) //scoreCounter.getValue() >= 40
+            if (ukrainesEaten >= 9) //scoreCounter.getValue() >= 40
             { 
-                getWorld().setBackground(new GreenfootImage("flag.png"));
+                Greenfoot.playSound("Evil_laugh_Male_9-Himan-1598312646.mp3"); 
+                getWorld().setBackground(new GreenfootImage("confedflag.png")); 
                 Greenfoot.delay(200);
                 getWorld().addObject(new Background_Information(), 0, 0);
-                getWorld().removeObject(this);
-                
+                for (Object obj : getWorld().getObjects(null)) ((Actor)obj).getImage().setTransparency(0);
             }
         }
     }

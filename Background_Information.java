@@ -1,5 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import java.util.List;
 /**
  * Write a description of class BullRun here.
  * 
@@ -23,24 +23,6 @@ public class Background_Information extends Actor
     {
        getWorld().setBackground(new GreenfootImage("Time_For_Info.jpg"));
        Greenfoot.delay(200);
-       /*
-       getWorld().setBackground(new GreenfootImage("Info Slides (1).jpg"));
-       Greenfoot.delay(600);
-       getWorld().setBackground(new GreenfootImage("Info Slides (8).jpg"));
-       Greenfoot.delay(600);
-       getWorld().setBackground(new GreenfootImage("Info Slides (3).jpg"));
-       Greenfoot.delay(600);
-       getWorld().setBackground(new GreenfootImage("Info Slides (4).jpg"));
-       Greenfoot.delay(600);
-       getWorld().setBackground(new GreenfootImage("Info Slides (5).jpg"));
-       Greenfoot.delay(600);
-       getWorld().setBackground(new GreenfootImage("Info Slides (6).jpg"));
-       Greenfoot.delay(600);
-       getWorld().setBackground(new GreenfootImage("Info Slides (7).jpg"));
-       Greenfoot.delay(600);
-       getWorld().setBackground(new GreenfootImage("Info Slides (2).jpg"));
-       Greenfoot.delay(600);
-       */
        SlideshowR(1);
        getWorld().setBackground(new GreenfootImage("The_End.jpg"));
        Greenfoot.stop();
