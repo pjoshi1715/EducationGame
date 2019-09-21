@@ -3,15 +3,23 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 import java.awt.Graphics;  //Necessary imports for the counter to work
 
-public class Counter extends Actor //This is the oh-so-important ACTOR class
-{
+/**
+ * Counter object 
+ * 
+ * @author Parth Joshi, Ethan Lau, Arav Vyawahare, Jonathan Wang
+ * @version 2.0 Sept 20, 2019
+ */
+public class Counter extends Actor {
     private static final Color transparent = new Color(0,0,0,0); //
     private GreenfootImage background; //Background image for the counter
     private int value; 
     private int target;
     private String prefix;
     
-    public Counter() //Constructor for String method
+    /**
+     * Constructer for string method
+     */
+    public Counter() 
     {
         this(new String());
     }
@@ -97,4 +105,4 @@ public class Counter extends Actor //This is the oh-so-important ACTOR class
                         (image.getHeight()-text.getHeight())/2);
         setImage(image);
     }
-}
+ }

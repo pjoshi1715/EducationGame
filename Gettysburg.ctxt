@@ -1,8 +1,9 @@
 #BlueJ class context
 comment0.target=Gettysburg
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Gettysburg\ here.\r\n\ \r\n\ @author\ Parth\ Joshi,\ Ethan\ Lau,\ Arav\ Vyawahare,\ Jonathan\ Wang\r\n\ @version\ 2.0\ Sept\ 20,\ 2019\r\n
+comment0.text=\r\n\ One\ of\ the\ territory\ objects,\ extands\ the\ abstract\ class\ Ukraine\r\n\ \r\n\ @author\ Parth\ Joshi,\ Ethan\ Lau,\ Arav\ Vyawahare,\ Jonathan\ Wang\r\n\ @version\ 2.0\ Sept\ 20,\ 2019\r\n
 comment1.params=
 comment1.target=void\ Gettysburg()
+comment1.text=\r\n\ Constructur\ of\ Gettysburg\ class.\ Sets\ image\ of\ the\ object.\r\n
 comment2.params=
 comment2.target=void\ act()
 numComments=3

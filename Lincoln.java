@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Lincoln here.
+ * One of the "capture" objects, extands the abstract class Ukraine
  * 
  * @author Parth Joshi, Ethan Lau, Arav Vyawahare, Jonathan Wang
  * @version 2.0 Sept 20, 2019

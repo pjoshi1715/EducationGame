@@ -1,46 +1,65 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.List;
                      // Necessary imports
-public class America extends Actor //AMERICA class
+/**
+ * Grant actor - Player controls object Grant through arrow keys
+ * 
+ * @author Parth Joshi, Ethan Lau, Arav Vyawahare, Jonathan Wang
+ * @version 2.0 Sept 20, 2019
+ */
+public class Grant extends Actor //Grant class
 {
-    public static int putinsEaten; //Amount of Vladmir's eliminated from the world
+    public static int leeEaten; //Amount of Vladmir's eliminated from the world
     private GreenfootImage image3; //The two eagle images used for animation
     private int count = 0; //Used for image-switch timing purposes
     
-    public void act() //Act method. Includes inputs from the keyboard and "lookForPutin", explained later
+    /**
+     * This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment. Calls on checkKeyPress2() and lookForLee() methods. 
+     */
+    public void act() 
     {
         checkKeyPress2();
-        lookForPutin(); 
-       // Russia.backgroundMusic.playLoop();
+        lookForLee(); 
+ 
     }   
-    public void stopMusic2() //Used to stop the background "tetris" music once America eats Putin
-    {
-            if (putinsEaten == 1 )
-            {
-                //Russia.backgroundMusic.stop(); 
-            }
-    }
     
-   public America() //Constructor. Establishes the 2 eagle images and the sets the putinsEaten variable
-   {
-  
+    /**
+     * Constructer of Grant. Establishes image and leeEaten variable
+     */
+    public Grant() 
+    {
        image3 = new GreenfootImage("grant.jpg"); 
        setImage(image3);
-       putinsEaten = 0; 
+       leeEaten = 0; 
     }
-   private boolean canSee(Class clss)  //"can see" method, needed for "eating" Putin
+    
+    /**
+     * "can see" method, needed for "eating" Lee
+     * @param Class clss
+     */
+    private boolean canSee(Class clss)  
     {
         Actor actor = getOneObjectAtOffset(0, 0, clss);
         return actor != null;        
     }
-    public void eat(Class clss) //imported from the actor class, the "eat" method for devouring Putins
+    
+    /**
+     *  imported from the actor class, the "eat" method for devouring Lee
+     *  @param Class clss
+     */
+    public void eat(Class clss)
     {
         Actor actor = getOneObjectAtOffset(0, 0, clss);
         if(actor != null) {
             getWorld().removeObject(actor);
         }
     }
-    public void checkKeyPress2() //Allows the player to control America using the arrow keys
+    
+    /**
+     * Allows the player to control Grant using the arrow keys
+     */
+    public void checkKeyPress2() 
     {
         if (Greenfoot.isKeyDown("left"))
         {
@@ -59,14 +78,18 @@ public class America extends Actor //AMERICA class
             move(-3); 
         }
     }
-   public void lookForPutin() //Using the "canSee" and "eat" methods to destroy Putin. Also stops the game. 
+    
+    /**
+     * Method by which player uses "canSee" and "eat" to destroy Lee. Stops game.
+     */
+    public void lookForLee() 
     {
-        if ( canSee(Putin.class) ) 
+        if ( canSee(Lee.class) ) 
         {
-            eat(Putin.class);
+            eat(Lee.class);
             Greenfoot.playSound("hawk_screeching-Mike_Koenig-1626170357.wav"); 
-            putinsEaten = putinsEaten + 1;
-            if (putinsEaten == 1 )
+            leeEaten = leeEaten + 1;
+            if (leeEaten == 1 )
             {
                 getWorld().setBackground(new GreenfootImage("flag2.png"));
                 Greenfoot.delay(200);

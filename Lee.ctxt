@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Lee
+comment0.text=\r\n\ Lee\ actor\ -\ Player\ controls\ object\ Robert\ E\ Lee\ through\ WASD\ keys\r\n\ \r\n\ @author\ Parth\ Joshi,\ Ethan\ Lau,\ Arav\ Vyawahare,\ Jonathan\ Wang\r\n\ @version\ 2.0\ Sept\ 20,\ 2019\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Lee\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\ Includes\ "lookForUkraine"\ and\ input\ from\ the\ keyboard\ for\ moving\r\n
+comment2.params=pointCounter
+comment2.target=Lee(Counter)
+comment2.text=\r\n\ Constructor\ -\ sets\ up\ image\ of\ Lee\ object\ as\ Rober\ E\ Lee\ and\ sets\ up\ counter\ \r\n\ @param\ Counter\ pointCounter\r\n
+comment3.params=clss
+comment3.target=boolean\ canSee(java.lang.Class)
+comment3.text=\r\n\ \ "canSee"\ method\ imported\ from\ the\ Actor\ class,\ necessary\ for\ eating\ territories\r\n\ \ @param\ Class\ clss\r\n
+comment4.params=clss
+comment4.target=void\ eat(java.lang.Class)
+comment4.text=\r\n\ \ "eat"\ method\ imported\ from\ the\ Actor\ class,\ necessary\ for\ eating\ territories\r\n\ \ @param\ Class\ clss\r\n
+comment5.params=
+comment5.target=void\ checkKeyPress()
+comment5.text=\r\n\ Allows\ the\ player\ to\ control\ object\ using\ the\ WASD\ keys\r\n
+comment6.params=
+comment6.target=void\ lookForUkraine()
+comment6.text=\r\n\ Method\ by\ which\ player\ finds\ and\ tears\ apart\ various\ territories,\ as\ well\ as\ gives\ points\ to\ the\ counter\ and\ stops\ the\ game.\ \r\n
+numComments=7

@@ -40,9 +40,9 @@ public class Russia extends World  //RUSSIA, the world class here
         }
         Counter scoreCounter = new Counter(); //Establishes the new counter called "scoreCounter"
         addObject(scoreCounter, 50, 20); //Where the counter will be located
-        Putin scoreboard = new Putin(scoreCounter); //Creates a Putin object to relate to the counter
+        Lee scoreboard = new Lee(scoreCounter); //Creates a Lee object to relate to the counter
         
-        addObject(new Putin(scoreCounter), 100, 400); //puts a single "Putin" into the world originally
+        addObject(new Lee(scoreCounter), 100, 400); //puts a single "Putin" into the world originally
         
 
         addObject(new FortSumter(),randpop[0][0], randpop[0][1]);  //putting "Ukraines" into the world upon resetting at various locations
@@ -55,7 +55,7 @@ public class Russia extends World  //RUSSIA, the world class here
         addObject(new Davis(), randpop[7][0], randpop[7][1]);
         addObject(new Lincoln(), randpop[8][0], randpop[8][1]);
        
-        addObject(new America(), 900, 100);
+        addObject(new Grant(), 900, 100);
     }
    
    }
